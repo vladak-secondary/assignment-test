@@ -1,4 +1,3 @@
 # assignment-test
 
-Repository with tests
-
+test assignment handout
