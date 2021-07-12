@@ -1,0 +1,17 @@
+name: Test
+
+on:
+  push:
+    paths-ignore:
+    - README.md
+    - '**/*.md'
+
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest,
+    steps:
+    - name: Checkout master branch
+      uses: actions/checkout@v2
+    - name: Test
+      run: echo testing
